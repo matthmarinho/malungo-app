@@ -34,12 +34,61 @@
 
     --radius: 0.5rem;
   }
+
+  .light {
+    --background: 0 0% 100%;
+    /* Branco */
+    --foreground: 228 9% 11%;
+    /* Texto escuro */
+
+    --card: 0 0% 98%;
+    /* Cartões quase brancos */
+    --card-foreground: 228 9% 11%;
+    /* Texto escuro */
+
+    --popover: 0 0% 98%;
+    /* Popover quase branco */
+    --popover-foreground: 228 9% 11%;
+    /* Texto escuro */
+
+    --primary: 252 100% 69%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 90%;
+    /* Cinza claro */
+    --secondary-foreground: 228 9% 11%;
+    /* Texto escuro */
+
+    --muted: 0 0% 90%;
+    /* Cinza claro */
+    --muted-foreground: 228 9% 40%;
+    /* Texto cinza mais escuro */
+
+    --accent: 228 6% 16%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    /* Vermelho intenso */
+    --destructive-foreground: 0 0% 100%;
+    /* Texto branco */
+
+    --border: 0 0% 80%;
+    /* Cinza médio */
+    --input: 0 0% 90%;
+    /* Fundo de entrada cinza claro */
+    --ring: 212.7 26.8% 83.9%;
+    /* Anel azul intenso */
+
+    --radius: 0.5rem;
+    /* Raio do canto */
+  }
 }
 
 @layer base {
   * {
     @apply border-border antialiased;
   }
+
   body {
     @apply bg-background text-foreground;
   }
