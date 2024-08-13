@@ -11,7 +11,7 @@ const Header = () => {
     <Card className="rounded-none">
       <CardContent className="p-5 flex flex-row items-center justify-between">
         <Link href="/">
-          <Image alt="Malungo App" src="/logo.png" height={18} width={120} />
+          <Image alt="Malungo App" src="/malungo.png" height={18} width={120} />
         </Link>
         <Sheet>
           <SheetTrigger asChild>
