@@ -19,11 +19,10 @@ import { createBooking } from "../_actions/create-bookings";
 import { useSession } from "next-auth/react";
 import { toast } from "sonner";
 import { getBookings } from "../_actions/get-bookings";
-import { Dialog } from "./ui/dialog";
-import { DialogContent } from "@radix-ui/react-dialog";
-import SignInDialog from "./sign-in-dialog";
+import { Dialog, DialogContent } from "./ui/dialog";
 import BookingSummary from "./booking-summary";
 import { useRouter } from "next/navigation";
+import SignInDialog from "./sign-in-dialog";
 
 interface ServiceItemProps {
   service: BarbershopService;
